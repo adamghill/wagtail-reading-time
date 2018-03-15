@@ -1,0 +1,25 @@
+{
+  "name": "wagtail-reading-time",
+  "version": "0.1.0",
+  "author": "Damon Jagger",
+  "license": "ISC",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vixdigital/wagtail-reading-time.git"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.41",
+    "@babel/preset-env": "^7.0.0-beta.41",
+    "@babel/preset-react": "^7.0.0-beta.41",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.0-beta",
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0",
+    "reading-time": "^1.1.0",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12"
+  }
+}
