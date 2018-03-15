@@ -2,7 +2,7 @@
   "name": "wagtail-reading-time",
   "version": "0.1.0",
   "author": "Damon Jagger",
-  "license": "ISC",
+  "license": "MIT",
   "scripts": {
     "build": "webpack"
   },
