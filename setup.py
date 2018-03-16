@@ -8,7 +8,8 @@ from setuptools import setup, find_packages
 
 setup(name='wagtail-readingtime',
       version='1.0.0b',
-      description='Determine approximate reading time of a piece of text.',
+      description='Determine approximate reading time of a piece of text. BETA',
+      long_description='Determine approximate reading time of a piece of text. BETA',
       url='https://github.com/vixdigital/wagtail-reading-time',
       author='VIX Digital',
       author_email='info@vix.digital',
