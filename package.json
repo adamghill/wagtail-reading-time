@@ -1,6 +1,6 @@
 {
   "name": "wagtail-reading-time",
-  "version": "1.0.0b",
+  "version": "1.0.0b1",
   "author": "Damon Jagger",
   "license": "MIT",
   "scripts": {
