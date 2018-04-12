@@ -2,7 +2,7 @@
 
 An example implementation of the [draftail reading time component](https://github.com/springload/draftail/blob/master/examples/components/ReadingTime.js) using draftail's registerControl function.
 
-!! This is an experimental build meant to test yet unreleased api features in Wagtail. !!
+!! This is an experimental build meant to test yet unreleased api features in Wagtail. It uses a monkeypatch to work specifically with Wagtail 2.0 and will likely break in a future release of Wagtail. !!
 
 ![Screenshot](screenshot.jpg)
 
