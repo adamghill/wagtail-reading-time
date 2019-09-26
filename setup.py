@@ -7,7 +7,7 @@ how long it will take a user to read the text input into a rich text field.
 from setuptools import setup, find_packages
 
 setup(name='wagtail-readingtime',
-      version='1.1.0',
+      version='1.1.1',
       description='Determine approximate reading time of a piece of text.',
       long_description='Determine approximate reading time of a piece of text.',
       url='https://github.com/vixdigital/wagtail-reading-time',
