@@ -15,11 +15,12 @@ const ReadingTime = ({ getEditorState }) => {
     const content = editorState.getCurrentContent();
     const text = content.getPlainText();
     const stats = readingTime(text);
+
     return (
         <ToolbarButton
             name="READING_TIME"
             icon={CLOCK_ICON}
-            label={`${stats.text} (${text.length})`}
+            label={` ${stats.text} (${stats.words} words)`}
             onClick={() => {
                 // eslint-disable-next-line no-alert
                 window.alert(`${text.length} characters, ${stats.words} words`);
